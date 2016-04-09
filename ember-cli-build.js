@@ -7,6 +7,8 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import("bower_components/chai-as-promised/lib/chai-as-promised.js", { type: 'test' });
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
